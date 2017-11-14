@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D53EED8D1FBA9721007A8BA0 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53EED8C1FBA9721007A8BA0 /* ForthViewController.swift */; };
 		D55874221FBA7FE7002F47A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55874211FBA7FE7002F47A9 /* AppDelegate.swift */; };
 		D55874241FBA7FE7002F47A9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55874231FBA7FE7002F47A9 /* FirstViewController.swift */; };
 		D55874261FBA7FEB002F47A9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55874251FBA7FEB002F47A9 /* SecondViewController.swift */; };
@@ -217,6 +218,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D53EED8C1FBA9721007A8BA0 /* ForthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
 		D558741E1FBA7FE6002F47A9 /* MultiTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55874211FBA7FE7002F47A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D55874231FBA7FE7002F47A9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -442,6 +444,7 @@
 		D55874151FBA7FE3002F47A9 = {
 			isa = PBXGroup;
 			children = (
+				D53EED8C1FBA9721007A8BA0 /* ForthViewController.swift */,
 				D55875C81FBA8834002F47A9 /* ThirdViewController.swift */,
 				D55874351FBA83FD002F47A9 /* iconbeast lite 200 - png */,
 				D55874201FBA7FE6002F47A9 /* MultiTab */,
@@ -954,6 +957,7 @@
 				D55874221FBA7FE7002F47A9 /* AppDelegate.swift in Sources */,
 				D55875C91FBA8834002F47A9 /* ThirdViewController.swift in Sources */,
 				D55874241FBA7FE7002F47A9 /* FirstViewController.swift in Sources */,
+				D53EED8D1FBA9721007A8BA0 /* ForthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
