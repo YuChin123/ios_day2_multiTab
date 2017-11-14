@@ -12,6 +12,8 @@ class ForthViewController: UIViewController,
 UIPickerViewDelegate, UIPickerViewDataSource
 {
     
+    @IBOutlet var myPicker: UIPickerView!
+    
     var meals = ["nasi lemak", "cake", "chicken rice"]
     var drinks = ["milo", "teh tarik", "juice", "coke"]
     
@@ -53,6 +55,30 @@ UIPickerViewDelegate, UIPickerViewDataSource
         else {
             return drinks[row]
         }
+    }
+    
+    @IBAction func actionGetResult(_ sender: Any) {
+        let firstColumnWhichRow = self.myPicker.selectedRow(inComponent: 0)
+        let secondColumnWhichRow = self.myPicker.selectedRow(inComponent: 1)
+        
+        //Compare with the array to get result
+       let selectedResultFirstColumn = self.meals[firstColumnWhichRow]
+        
+        let selectedResultSecondColumn = self.drinks[secondColumnWhichRow]
+
+        //Alert box to show the Selected Result
+        //Combine the result for later display
+        let myMessage = " \(selectedResultFirstColumn) with  \(selectedResultSecondColumn) is the best match"
+        
+        
+        //
+        let myAlert = UIAlertController(title: "Selected Result" , message: myMessage, preferredStyle: .alert)
+        
+        let okButton = UIAlertAction(title:"okay", style: .default, handler: nil)
+       myAlert.addAction(okButton)
+        
+        present(myAlert, animated: true, completion: nil)
+        
     }
     
 
